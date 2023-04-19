@@ -8,43 +8,118 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="inner">
-      <div class="key-container">
+    <div class="wrapper">
+      <div class="key-container keyA">
         <p class="keyname">A</p>
         <p class="soundname">CLAP</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyS">
         <p class="keyname">S</p>
         <p class="soundname">HIHAT</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyD">
         <p class="keyname">D</p>
         <p class="soundname">KICK</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyF">
         <p class="keyname">F</p>
         <p class="soundname">OPENHAT</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyG">
         <p class="keyname">G</p>
         <p class="soundname">BOOM</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyH">
         <p class="keyname">H</p>
         <p class="soundname">RIDE</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyJ">
         <p class="keyname">J</p>
         <p class="soundname">SNARE</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyK">
         <p class="keyname">K</p>
         <p class="soundname">TOM</p>
       </div>
-      <div class="key-container">
+      <div class="key-container keyL">
         <p class="keyname">L</p>
         <p class="soundname">TINK</p>
       </div>
     </div>
+
+    <script>
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 65) {
+          document.querySelector(".keyA").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyA").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 83) {
+          document.querySelector(".keyS").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyS").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 68) {
+          document.querySelector(".keyD").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyD").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 70) {
+          document.querySelector(".keyF").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyF").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 71) {
+          document.querySelector(".keyG").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyG").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 72) {
+          document.querySelector(".keyH").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyH").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 74) {
+          document.querySelector(".keyJ").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyJ").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 75) {
+          document.querySelector(".keyK").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyK").classList.remove("playing");
+      });
+      addEventListener("keydown", (e) => {
+        if (event.keyCode === 76) {
+          document.querySelector(".keyL").classList.add("playing");
+        }
+      });
+      addEventListener("keyup", (e) => {
+        document.querySelector(".keyL").classList.remove("playing");
+      });
+    </script>
   </body>
 </html>

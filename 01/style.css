@@ -6,16 +6,17 @@ body {
   font-family: sans-serif;
 }
 
-.inner {
+.wrapper {
   display: flex;
+  margin: 0 auto;
   max-width: 1200px;
+  height: 100%;
   gap: 25px;
   justify-content: space-between;
-  margin: 0 auto;
-  height: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
-.inner p {
+.wrapper p {
   margin: 0;
 }
 
