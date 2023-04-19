@@ -9,117 +9,80 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="key-container keyA">
+      <div class="key-container keya">
         <p class="keyname">A</p>
         <p class="soundname">CLAP</p>
+        <audio class="sound-clap">
+          <source src="./sounds/clap.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyS">
+      <div class="key-container keys">
         <p class="keyname">S</p>
         <p class="soundname">HIHAT</p>
+        <audio class="sound-hihat">
+          <source src="./sounds/hihat.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyD">
+      <div class="key-container keyd">
         <p class="keyname">D</p>
         <p class="soundname">KICK</p>
+        <audio class="sound-kick">
+          <source src="./sounds/kick.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyF">
+      <div class="key-container keyf">
         <p class="keyname">F</p>
         <p class="soundname">OPENHAT</p>
+        <audio class="sound-openhat">
+          <source src="./sounds/openhat.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyG">
+      <div class="key-container keyg">
         <p class="keyname">G</p>
         <p class="soundname">BOOM</p>
+        <audio class="sound-boom">
+          <source src="./sounds/boom.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyH">
+      <div class="key-container keyh">
         <p class="keyname">H</p>
         <p class="soundname">RIDE</p>
+        <audio class="sound-ride">
+          <source src="./sounds/ride.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyJ">
+      <div class="key-container keyj">
         <p class="keyname">J</p>
         <p class="soundname">SNARE</p>
+        <audio class="sound-snare">
+          <source src="./sounds/snare.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyK">
+      <div class="key-container keyk">
         <p class="keyname">K</p>
         <p class="soundname">TOM</p>
+        <audio class="sound-tom">
+          <source src="./sounds/tom.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      <div class="key-container keyL">
+      <div class="key-container keyl">
         <p class="keyname">L</p>
         <p class="soundname">TINK</p>
+        <audio class="sound-tink">
+          <source src="./sounds/tink.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
     </div>
 
-    <script>
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 65) {
-          document.querySelector(".keyA").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyA").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 83) {
-          document.querySelector(".keyS").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyS").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 68) {
-          document.querySelector(".keyD").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyD").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 70) {
-          document.querySelector(".keyF").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyF").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 71) {
-          document.querySelector(".keyG").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyG").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 72) {
-          document.querySelector(".keyH").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyH").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 74) {
-          document.querySelector(".keyJ").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyJ").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 75) {
-          document.querySelector(".keyK").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyK").classList.remove("playing");
-      });
-      addEventListener("keydown", (e) => {
-        if (event.keyCode === 76) {
-          document.querySelector(".keyL").classList.add("playing");
-        }
-      });
-      addEventListener("keyup", (e) => {
-        document.querySelector(".keyL").classList.remove("playing");
-      });
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>
