@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Update CSS Variables with <span class="light-height">JS</span></h1>
+
+    <p class="content">
+      <span class="control-box">
+        <label for="spacing">Spacing:</label>
+        <input
+          type="range"
+          id="spacing"
+          class="spacing-box"
+          min="10"
+          max="200"
+          value="10"
+        />
+      </span>
+
+      <span class="control-box">
+        <label for="blur">Blur:</label>
+        <input
+          type="range"
+          id="blur"
+          class="blur-box"
+          min="0"
+          max="25"
+          value="10"
+        />
+      </span>
+
+      <span class="control-box">
+        <label for="color">Base Color</label>
+        <input type="color" class="color-box" id="color" value="#ffc600" />
+      </span>
+    </p>
+
+    <div class="image-box">
+      <img src="./image/photo.jpeg" alt="" />
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

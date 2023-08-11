@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  min-width: 375px;
+  background-color: rgb(25, 53, 73);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "helvetica neue", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.light-height {
+  color: rgb(255, 198, 0);
+}
+
+.control-box + .controlbox {
+  margin-left: 20px;
+}
+
+.spacing-box,
+.blur-box {
+  width: 100px;
+}
+
+.color-box {
+  width: 100px;
+  height: 25px;
+}
+
+.image-box {
+  margin: 0 auto;
+  width: 50%;
+  border: 10px solid rgb(255, 198, 0);
+  filter: blur(3px);
+}
+
+.image-box img {
+  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+}
